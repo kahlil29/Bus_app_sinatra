@@ -1,0 +1,30 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <title>REDBUS WEBAPP</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="header">
+    <h1>INDIGO-BUS WEBAPP</h1>
+  </div>
+  <ul>
+    <li> <a href='/' title="Home"> HOME </a> </li>
+    <li> <a href='/news'> NEWS </a> </li>
+    <li> <a href='/contact'> CONTACT</a> </li>
+
+    <ul style="float:right;list-style-type:none;">
+      <li><a href="/about">ABOUT</a></li>
+      <li><a class="active" href="/login">LOGIN</a></li>
+    </ul>
+
+  </ul>
+
+  <section>
+    <%= yield %>
+  </section>
+
+</body>
+</html>

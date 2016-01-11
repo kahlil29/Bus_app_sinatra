@@ -1,0 +1,59 @@
+h1 {
+  color:#212121;
+  font-size: 2em;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+a {
+  color:#727272 ;
+  font-size: 1em;
+  font-style: oblique;
+  font-family: fantasy;
+}
+
+#header {
+  padding:1em;
+  text-align: center;
+  background-color: #3F51B5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#bus_table{
+  border-collapse: collapse;
+}
+
+#bus_table, th, td {
+
+  border: 1px solid blue;
+}
